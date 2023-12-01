@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-image: url(./images/background.jpg);
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 80px;
+}
+
+.logo{
+    color:rgb(188, 196, 203);
+    font-family: 'Nova Square', sans-serif;
+    padding-left: 20px;
+    float: left;
+    font-weight: 400;
+    padding-top: 10px;
+
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size:  14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(219, 234, 248);
+    font-family: 'Open Sans', sans-serif ;
+    font-weight: 700;
+    transition: 0.3s ease-out;
+}
+
+ul li a:hover{
+    color: #880808;
+    font-size: 24px ;
+    font-weight: 800;
+}
+
+.search{
+    width:330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Open Sans', sans-serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    font-weight: 400;
+    border: 1px solid #880808;
+    margin-top: 13px;
+    color: #ffff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-radius: 5px 10px 5px 10px;
+
+}
+
+.btn{
+    width: 100px; /*not % caused error earlier*/
+    height: 40px;
+    background: #880808;
+    border: 2px solid #880808;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px ;
+
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .parag{
+   padding-left: 20px;
+   box-sizing: border-box;
+   padding-bottom: 25px;
+    font-family: 'Open sans', sans-serif ;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+
+.content h2{
+    font-family: 'Open sans', sans-serif ;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    position: relative;/*gets fixed when I put fixed but overlaps*/
+}
